@@ -31,7 +31,7 @@
 
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://github.com/I-Am-Jakoby/hak5-submissions/raw/main/OMG/Payloads/OMG-JumpScare/jumpscare.png"
+$image =  "https://github.com/AlekCG/Jump-Scare/blob/main/jumpscare.png"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
@@ -40,7 +40,7 @@ iwr https://github.com/I-Am-Jakoby/hak5-submissions/raw/main/OMG/Payloads/OMG-Ju
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://github.com/I-Am-Jakoby/hak5-submissions/blob/main/OMG/Payloads/OMG-JumpScare/female_scream.wav?raw=true"
+$wav = "https://github.com/AlekCG/Jump-Scare/blob/main/femur%20breaker%20(only%20scream).wav"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
