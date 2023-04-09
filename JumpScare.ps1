@@ -40,7 +40,7 @@ iwr https://github.com/I-Am-Jakoby/hak5-submissions/raw/main/OMG/Payloads/OMG-Ju
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://github.com/AlekCG/Jump-Scare/blob/main/femur%20breaker%20(only%20scream).wav"
+$wav = "https://github.com/AlekCG/Jump-Scare/blob/main/femur%20breaker%20(only%20scream).wav?raw=true"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
