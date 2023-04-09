@@ -31,7 +31,7 @@
 
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://github.com/AlekCG/Jump-Scare/blob/main/jumpscare.png?raw=true"
+$image =  "https://github.com/AlekCG/Jump-Scare/raw/main/jumpscare.png"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
